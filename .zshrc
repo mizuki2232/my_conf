@@ -30,7 +30,7 @@ function ford(){
 }
 
 # raspberrypi3接続用のコマンド
-alias raspi='sshpass -p mizuki25 ssh pi@raspberrypi.local'
+alias raspi='sshpass -p iyan-michadame ssh pi@raspberrypi.local'
 
 # 自動補完を有効にする
 # コマンドの引数やパス名を途中まで入力して <Tab> を押すといい感じに補完してくれる
@@ -70,10 +70,6 @@ export EDITOR=vim
 export TERM=xterm-256color
 # djangoの設定ファイルの位置を教える環境変数
 export DJANGO_SETTINGS_MODULE=settings
-# slackのtoken
-export SLACK_TOKEN="bNl3Xd4MZUhD90GFolq14mba"
-export SLACK_URL="https://hooks.slack.com/services/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"
-export OVERDUE_URL="http://52.199.80.201/admin_overdue"
 # lsコマンドに色付け
 export TERM=xterm-color
 alias ls='ls -G'
